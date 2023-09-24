@@ -13,7 +13,7 @@ def caesar(start_text, shift_amount, cipher_direction):
       end_text += alphabet[new_position]
     if char not in alphabet:
       end_text += char 
-    #TODO-3: What happens if the user enters a number/symbol/space?
+
     #Can you fix the code to keep the number/symbol/space when the text is encoded/decoded?
     #e.g. start_text = "meet me at 3"
     #end_text = "•••• •• •• 3"
